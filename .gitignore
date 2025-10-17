@@ -1,0 +1,36 @@
+# Python Virtual Environments
+venv/
+*/venv/
+
+# Python cache & temp files
+__pycache__/
+*/__pycache__/
+*.pyc
+
+# Python build/distribution artifacts
+build/
+dist/
+*.egg-info/
+
+# Node.js dependencies
+node_modules/
+*/node_modules/
+
+# Frontend (Vite) build/cache
+frontend/dist/
+frontend/.vite/
+frontend/coverage/
+
+# Local Environment Variables (CRITICAL for API keys)
+.env
+.env.*
+!.env.example
+!.env.test
+
+# OS / Editor specific files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Log files
+*.log
